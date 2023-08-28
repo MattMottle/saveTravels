@@ -10,10 +10,13 @@
 </head>
 <body>
 	<div class="container">
-		<h1><c:out value="${expense.name}"/></h1>
-		<h3>Vendor: <c:out value="${expense.vendor}"/></h3>
-		<h3>Amount: $<c:out value="${expense.amount}"/></h3>
-		<h3>Description: <c:out value="${expense.description}"/></h3>
+		<div class="show">
+			<h1><c:out value="${expense.name}"/></h1>
+			<h3>Vendor: <c:out value="${expense.vendor}"/></h3>
+			<h3>Amount: $<c:out value="${expense.amount}"/></h3>
+			<h3>Description: <c:out value="${expense.description}"/></h3>
+		</div>
+		<a href="http://localhost:8080/">Home</a>	
 	</div>
 </body>
 </html>
